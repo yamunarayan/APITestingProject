@@ -32,7 +32,7 @@
       <groupId>io.rest-assured</groupId>
       <artifactId>rest-assured</artifactId>
       <version>5.2.0</version>
-      <scope>test</scope>
+
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
@@ -45,8 +45,16 @@
       <groupId>io.rest-assured</groupId>
       <artifactId>json-schema-validator</artifactId>
       <version>5.2.0</version>
-      <scope>test</scope>
+
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.24</version>
+
+    </dependency>
+
 
 
 
