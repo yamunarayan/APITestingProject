@@ -15,9 +15,13 @@ public class BuildPostCallUsingBuilder {
         HashMap<String, String> headerMap=new HashMap<String, String>();
         headerMap.put("Content-Type","application/json");
         headerMap.put("Accept","application/json");
+
+
         RestAssured.baseURI="https://dev106543.service-now.com/";
         RestAssured.basePath="/api/now/table/";
         RestAssured.authentication=RestAssured.basic("admin","^qqUL74RdtX/");
+
+
         ServiceNowRequestUsingBuilder serviceNowRequestUsingBuilderObj =  ServiceNowRequestUsingBuilder.
                 builder()
                 .shortDescription("SoftwareCate")

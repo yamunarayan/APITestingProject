@@ -7,4 +7,3 @@ import java.util.List;
 public class GetAllIncidentResponse {
     List<CreateIncidentResponse.Result> result;
 }
-    

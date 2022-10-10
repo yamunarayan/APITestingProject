@@ -3,7 +3,7 @@ package org.example;
 public class ServiceNowRequest {
     private String short_description;
     private String   category;
-        private int    priority;
+    private int    priority;
 
 
     public String getCategory() {

@@ -3,8 +3,10 @@ package org.example;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Data;
+import lombok.ToString;
 
 @Data
+@ToString
 @Builder(toBuilder = true)
 public class ServiceNowRequestUsingBuilder {
 

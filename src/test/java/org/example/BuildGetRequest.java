@@ -44,6 +44,7 @@ public class BuildGetRequest {
                 get().
                 then().log().all().
                 statusCode(200).extract().response();
+
         JsonPath jsonPath = response.jsonPath();
         String email=jsonPath.get("data[0].email");
         System.out.println(email);

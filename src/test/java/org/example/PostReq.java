@@ -41,7 +41,7 @@ public class PostReq {
 
         RestAssured.baseURI = "https://pavi143.atlassian.net";
         RestAssured.basePath = "/rest/api/3/";
-        RestAssured.authentication=RestAssured.basic("yamuna.jayaraman@gmail.com","x9twGAk8cPisOfidBAu64A7C");
+        RestAssured.authentication=RestAssured.basic("yamuna.jayaraman@gmail.com","X4By27BOMZJw9vtofoJ27FEC");
 
         Response response = RestAssured.given().
                 headers(headerobjMap).

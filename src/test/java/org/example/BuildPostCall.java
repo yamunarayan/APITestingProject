@@ -21,6 +21,8 @@ public class BuildPostCall {
 HashMap<String, String> map = mapper.readValue(body,type);
 map.put("short_description","Edited");
 
+
+
         HashMap<String, String>headerMap=new HashMap<String, String>();
         headerMap.put("Content-Type","application/json");
         headerMap.put("Accept","application/json");
@@ -39,7 +41,7 @@ map.put("short_description","Edited");
     System.out.println(responseIncident.prettyPrint());
         responseIncident.then().body("result.short_description", Matchers.is("Edited"));
         File file = new File("./src/test/java/resources/Schema.json");
-        responseIncident.then().body(JsonSchemaValidator.matchesJsonSchema(file));
+            responseIncident.then().body(JsonSchemaValidator.matchesJsonSchema(file));
         //responseIncident.then().body("name",Matchers.containsString("morpheus"));
     }
 }
