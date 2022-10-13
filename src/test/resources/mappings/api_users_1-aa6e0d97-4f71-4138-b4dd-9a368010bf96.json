@@ -1,0 +1,30 @@
+{
+  "id" : "aa6e0d97-4f71-4138-b4dd-9a368010bf96",
+  "name" : "api_users_1",
+  "request" : {
+    "url" : "/api/users/1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"data\":{\"id\":1,\"email\":\"george.bluth@reqres.in\",\"first_name\":\"George\",\"last_name\":\"Bluth\",\"avatar\":\"https://reqres.in/img/faces/1-image.jpg\"},\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}",
+    "headers" : {
+      "Date" : "Thu, 13 Oct 2022 18:25:24 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "X-Powered-By" : "Express",
+      "Access-Control-Allow-Origin" : "*",
+      "Etag" : "W/\"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc\"",
+      "Via" : "1.1 vegur",
+      "Cache-Control" : "max-age=14400",
+      "CF-Cache-Status" : "REVALIDATED",
+      "Report-To" : "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=blySRoLZMv04bPuObARdZ%2BnxbeU0NbnTZO6PBHpXfMAOrOoA84JlRiLbKtfhiqx2iPwcqOf72FBNZil3bvyzomeWSynQK%2BWYsLZMmIXeDDOvvqt4bQ8I7yYylw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "NEL" : "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "Vary" : "Accept-Encoding",
+      "Server" : "cloudflare",
+      "CF-RAY" : "759a1e1fef51a3b7-AMD"
+    }
+  },
+  "uuid" : "aa6e0d97-4f71-4138-b4dd-9a368010bf96",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

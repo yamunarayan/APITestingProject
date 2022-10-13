@@ -40,7 +40,7 @@ map.put("short_description","Edited");
                 statusCode(201).extract().response();
     System.out.println(responseIncident.prettyPrint());
         responseIncident.then().body("result.short_description", Matchers.is("Edited"));
-        File file = new File("./src/test/java/resources/Schema.json");
+        File file = new File("./src/test/resources/Schema.json");
             responseIncident.then().body(JsonSchemaValidator.matchesJsonSchema(file));
         //responseIncident.then().body("name",Matchers.containsString("morpheus"));
     }
