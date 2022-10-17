@@ -1,0 +1,25 @@
+{
+  "id" : "c7c726d6-3c31-420d-b975-b222268caaf2",
+  "request" : {
+    "urlPath" : "/api/v1/players",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    },
+    "basicAuthCredentials" : {
+      "username" : "admin",
+      "password" : "admin"
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "statusMessage" : "Created",
+    "body" : "hello"
+  },
+  "uuid" : "c7c726d6-3c31-420d-b975-b222268caaf2",
+  "persistent" : true,
+  "priority" : 2,
+  "insertionIndex" : 3
+}

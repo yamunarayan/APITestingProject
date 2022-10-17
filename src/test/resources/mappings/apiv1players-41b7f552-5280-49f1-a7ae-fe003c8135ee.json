@@ -1,0 +1,21 @@
+{
+  "id" : "41b7f552-5280-49f1-a7ae-fe003c8135ee",
+  "request" : {
+    "urlPath" : "/api/v1/players",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "statusMessage" : "Created",
+    "body" : "hello"
+  },
+  "uuid" : "41b7f552-5280-49f1-a7ae-fe003c8135ee",
+  "persistent" : true,
+  "priority" : 2,
+  "insertionIndex" : 2
+}
