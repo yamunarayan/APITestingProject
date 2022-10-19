@@ -18,7 +18,12 @@ public class CreateMockProxying {
 @Test
     public void proxyingMockTest(){
 
-        StubMapping stubMapping = stubFor(get(urlPathEqualTo("/api/users")).
+    StubMapping stubMapping1 = stubFor(get(urlPathEqualTo("/api/test/use")).willReturn(aResponse().withStatus(200).
+            proxiedFrom("https://reqres.in")));
+
+    RestAssured.given().log().all().get("http://loacalhost:8080");
+
+    StubMapping stubMapping = stubFor(get(urlPathEqualTo("/api/users")).
                 willReturn(aResponse().withStatus(200).proxiedFrom("https://reqres.in")));
 
         Response response = RestAssured.given().log().all().

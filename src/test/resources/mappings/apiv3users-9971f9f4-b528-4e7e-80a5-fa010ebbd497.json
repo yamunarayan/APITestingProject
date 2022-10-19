@@ -1,0 +1,25 @@
+{
+  "id" : "9971f9f4-b528-4e7e-80a5-fa010ebbd497",
+  "request" : {
+    "urlPath" : "/api/v3/users",
+    "method" : "PUT",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 204,
+    "jsonBody" : {
+      "id" : 2,
+      "email" : "janet.weaver@reqres.in",
+      "first_name" : "Janet",
+      "last_name" : "Weavering- Editing"
+    }
+  },
+  "uuid" : "9971f9f4-b528-4e7e-80a5-fa010ebbd497",
+  "persistent" : true,
+  "priority" : 1,
+  "insertionIndex" : 32
+}

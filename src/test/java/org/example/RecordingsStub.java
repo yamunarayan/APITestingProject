@@ -18,15 +18,16 @@ public class RecordingsStub {
         WireMockServer wireMockServer= new WireMockServer(wireMockConfig().port(8080));
         wireMockServer.start();
 
-        wireMockServer.startRecording("https://reqres.in");
+
+    wireMockServer.startRecording("https://reqres.in");
 
         RestAssured.baseURI="http://localhost:8080";
 
         RestAssured.given().log().all().get("/api/users");
         RestAssured.given().log().all().get("/api/users/1");
 
-        SnapshotRecordResult snapshotRecordResult = wireMockServer.stopRecording();
-        List<StubMapping> stubMappings = snapshotRecordResult.getStubMappings();
+       SnapshotRecordResult snapshotRecordResult = wireMockServer.stopRecording();
+       List<StubMapping> stubMappings = snapshotRecordResult.getStubMappings();
 
 
     }

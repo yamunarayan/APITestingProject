@@ -1,0 +1,20 @@
+{
+  "id" : "c21fc8ce-29bf-4904-bc7c-189c49bea5f0",
+  "request" : {
+    "urlPath" : "/api/v6/rest",
+    "method" : "DELETE",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 202,
+    "body" : "Deleting Hi"
+  },
+  "uuid" : "c21fc8ce-29bf-4904-bc7c-189c49bea5f0",
+  "persistent" : true,
+  "priority" : 3,
+  "insertionIndex" : 24
+}

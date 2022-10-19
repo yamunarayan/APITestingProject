@@ -1,0 +1,29 @@
+{
+  "id" : "40619a94-d756-4171-8cac-60f3c9e2a5bb",
+  "request" : {
+    "urlPath" : "/api/v4/books",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    },
+    "basicAuthCredentials" : {
+      "username" : "admin",
+      "password" : "admin"
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+      "id" : 2,
+      "email" : "janet.weaver@reqres.in",
+      "first_name" : "Janet",
+      "last_name" : "Weavering"
+    }
+  },
+  "uuid" : "40619a94-d756-4171-8cac-60f3c9e2a5bb",
+  "persistent" : true,
+  "priority" : 2,
+  "insertionIndex" : 65
+}

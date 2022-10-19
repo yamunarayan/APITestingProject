@@ -1,0 +1,20 @@
+{
+  "id" : "a776d92b-2a86-4758-a79f-05c26c8c0d2a",
+  "request" : {
+    "urlPath" : "/api/v4/books",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "contains" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "he, hello"
+  },
+  "uuid" : "a776d92b-2a86-4758-a79f-05c26c8c0d2a",
+  "persistent" : true,
+  "priority" : 4,
+  "insertionIndex" : 33
+}

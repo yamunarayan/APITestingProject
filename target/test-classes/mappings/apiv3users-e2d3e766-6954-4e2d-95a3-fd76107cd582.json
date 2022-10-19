@@ -1,0 +1,20 @@
+{
+  "id" : "e2d3e766-6954-4e2d-95a3-fd76107cd582",
+  "request" : {
+    "urlPath" : "/api/v3/users",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 201,
+    "body" : "Hi"
+  },
+  "uuid" : "e2d3e766-6954-4e2d-95a3-fd76107cd582",
+  "persistent" : true,
+  "priority" : 2,
+  "insertionIndex" : 10
+}

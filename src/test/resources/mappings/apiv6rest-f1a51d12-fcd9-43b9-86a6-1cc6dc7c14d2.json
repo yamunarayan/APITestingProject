@@ -1,0 +1,25 @@
+{
+  "id" : "f1a51d12-fcd9-43b9-86a6-1cc6dc7c14d2",
+  "request" : {
+    "urlPath" : "/api/v6/rest",
+    "method" : "DELETE",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 202,
+    "jsonBody" : {
+      "id" : 2,
+      "email" : "janet.weaver@reqres.in",
+      "first_name" : "Janet",
+      "last_name" : "Weavering"
+    }
+  },
+  "uuid" : "f1a51d12-fcd9-43b9-86a6-1cc6dc7c14d2",
+  "persistent" : true,
+  "priority" : 3,
+  "insertionIndex" : 59
+}

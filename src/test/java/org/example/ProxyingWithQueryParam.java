@@ -16,7 +16,8 @@ public class ProxyingWithQueryParam {
 @Test
     public static void proxyingwithQuery(){
 
-        StubMapping page = stubFor(get(urlPathEqualTo("/api/users")).withQueryParam("page", matching("[0 - 9]")).
+        StubMapping page = stubFor(get(urlPathEqualTo("/api/users")).
+                withQueryParam("page", matching("[0 - 9]")).
                 willReturn(aResponse().withStatus(200).proxiedFrom("https://reqres.in/")));
 
         Response response = RestAssured.given().log().all().get("http://localhost:8080/api/users");

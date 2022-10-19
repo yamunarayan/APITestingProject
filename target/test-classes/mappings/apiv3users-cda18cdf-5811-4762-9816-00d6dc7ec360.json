@@ -1,0 +1,20 @@
+{
+  "id" : "cda18cdf-5811-4762-9816-00d6dc7ec360",
+  "request" : {
+    "urlPath" : "/api/v3/users",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 201,
+    "body" : "Hi"
+  },
+  "uuid" : "cda18cdf-5811-4762-9816-00d6dc7ec360",
+  "persistent" : true,
+  "priority" : 3,
+  "insertionIndex" : 12
+}

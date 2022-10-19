@@ -1,0 +1,20 @@
+{
+  "id" : "99d1c12e-4e61-46db-b789-2a304987267a",
+  "request" : {
+    "urlPath" : "/api/v6/rest",
+    "method" : "DELETE",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 202,
+    "bodyFileName" : "model.json"
+  },
+  "uuid" : "99d1c12e-4e61-46db-b789-2a304987267a",
+  "persistent" : true,
+  "priority" : 3,
+  "insertionIndex" : 58
+}
