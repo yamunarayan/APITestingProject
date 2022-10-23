@@ -1,0 +1,25 @@
+{
+  "id" : "55a071ae-acfa-4e68-83d2-156da0ad19cc",
+  "request" : {
+    "urlPath" : "/api/v4/books",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "contains" : "application/json"
+      }
+    },
+    "basicAuthCredentials" : {
+      "username" : "admin",
+      "password" : "admin"
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "he, hello",
+    "fixedDelayMilliseconds" : 3000
+  },
+  "uuid" : "55a071ae-acfa-4e68-83d2-156da0ad19cc",
+  "persistent" : true,
+  "priority" : 4,
+  "insertionIndex" : 63
+}

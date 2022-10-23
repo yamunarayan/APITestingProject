@@ -1,0 +1,24 @@
+{
+  "id" : "498c9c24-5f82-4035-a552-36c7a04d498e",
+  "request" : {
+    "urlPath" : "/api/v4/books",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json"
+      }
+    },
+    "basicAuthCredentials" : {
+      "username" : "admin",
+      "password" : "admin"
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "model.json"
+  },
+  "uuid" : "498c9c24-5f82-4035-a552-36c7a04d498e",
+  "persistent" : true,
+  "priority" : 3,
+  "insertionIndex" : 64
+}
